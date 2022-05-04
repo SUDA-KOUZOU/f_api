@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from enum import Enum
 
 class Gender(str, Enum):
-    mail = "male"
+    male = "male"
     female = "female"
 
 class Role(str, Enum):
